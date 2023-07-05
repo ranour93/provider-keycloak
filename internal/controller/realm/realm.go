@@ -34,11 +34,11 @@ import (
 
 	"github.com/crossplane/provider-keycloak/apis/realm/v1alpha1"
 	apisv1alpha1 "github.com/crossplane/provider-keycloak/apis/v1alpha1"
-	"github.com/crossplane/provider-keycloak/internal/controller/features"
+	"github.com/crossplane/provider-keycloak/internal/features"
 )
 
 const (
-	errNotRealm    = "managed resource is not a Realm custom resource"
+	errNotRealm     = "managed resource is not a Realm custom resource"
 	errTrackPCUsage = "cannot track ProviderConfig usage"
 	errGetPC        = "cannot get ProviderConfig"
 	errGetCreds     = "cannot get credentials"
